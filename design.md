@@ -34,3 +34,14 @@ Goal State: Kisumu
 3. Abstraction of The Road Network
 - The real-world road network is simplified by representing towns as states and direct road connections as edges.
 
+4. Directed Graph Representation
+- The road network is represented as a directed, weighted graph (G=(V, E)), where V represents the towns and E represents the road connections. Each edge has a weight, which is the distance in kilometers. Based on the graph, the searching agent can explore different routes from Nairobi to Kisumu.
+
+5. Alternative Routes Comparison
+<img width="1000" height="314" alt="Screenshot 2026-10-13 074928" src="https://github.com/user-attachments/assets/18b1d1b8-84d7-4cfa-9a8f-977b95fe8139" />
+
+
+
+
+
+
