@@ -56,10 +56,10 @@ Goal State: Kisumu
 - d(Nairobi, Naivasha) = 88km
 - d(Naivasha, Nakuru) = 71km
 - d(Nakuru, Molo) = 47km
-- d(Molo, Kericho) = 65km
-- d(Kericho, Kisumu) = 87km
+- d(Molo, Kericho) = 69km
+- d(Kericho, Kisumu) = 83km
 
-- Path Cost = 88 + 71 + 47 + 65 + 87 = 358km
+- Path Cost = 88 + 71 + 47 + 69 + 83 = 358km
 
 5.3 Optimal Path
 - Based on the path cost function, the optimal route for the searching agent that yields the minimal path cost is Route 1 (Naoribi -> Naivasha -> Nakuru -> Molo -> Kericho -> Kisumu), which is a total of 358km.
