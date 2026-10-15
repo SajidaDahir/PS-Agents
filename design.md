@@ -14,7 +14,7 @@ Goal State: Kisumu
 - Actuators - Brakes, Indicators, accelerator, horn, accelerating system
 - Sensors - GPS, cameras, radar, speed sensors
 
-1.2 Agent Environment
+1.2 Agent Environment Classification
 - Fully observable VS Partially Observable - the environment is partially observable because the trailer's sensors cannot provide complete information about every aspect of the road environment at all times.
 - Deterministic VS  Stochastic - the environment is stochastic because the outcome of an action may be affected by factors beyond the agent's control such as drivers, accidents and unexpected road conditions.
 - Episodic VS Sequential - the environment is sequential because the agent's current decisions affect the subsequent states and available actions.
@@ -34,14 +34,29 @@ Goal State: Kisumu
 3. Abstraction of The Road Network
 - The real-world road network is simplified by representing towns as states and direct road connections as edges.
 
-4. Directed Graph Representation
-- The road network is represented as a directed, weighted graph (G=(V, E)), where V represents the towns and E represents the road connections. Each edge has a weight, which is the distance in kilometers. Based on the graph, the searching agent can explore different routes from Nairobi to Kisumu.
+4. Directed Graph and Search Tree Representation
+4.1 Directed Graph
+- The road network is represented as a directed, weighted graph. Each edge has a weight, which is the distance in kilometers. Based on the graph, the searching agent can explore different routes from Nairobi to Kisumu.
 
-5. Alternative Routes Comparison
-<img width="1000" height="314" alt="Screenshot 2026-10-13 074928" src="https://github.com/user-attachments/assets/18b1d1b8-84d7-4cfa-9a8f-977b95fe8139" />
-
-
-
+  
+4.2 Search Tree
 
 
 
+5. Alternative Routes Comparison and Optimal Path Determination
+5.1 Route Comparison Table
+   
+<img width="1024" height="352" alt="Screenshot 2026-10-15 172716" src="https://github.com/user-attachments/assets/394a94a9-cc7b-405f-a058-bee36b1275e9" />
+
+
+5.2 Distance Calculation for Optimal Path
+- d(Nairobi, Naivasha) = 88km
+- d(Naivasha, Nakuru) = 71km
+- d(Nakuru, Molo) = 47km
+- d(Molo, Kericho) = 65km
+- d(Kericho, Kisumu) = 87km
+
+- Path Cost = 88 + 71 + 47 + 65 + 87 = 358km
+
+5.3 Optimal Path
+- Based on the path cost function, the optimal route for the searching agent that yields the minimal path cost is Route 1 (Naoribi -> Naivasha -> Nakuru -> Molo -> Kericho -> Kisumu), which is a total of 358km.
