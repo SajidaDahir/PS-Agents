@@ -61,3 +61,7 @@ Goal State: Kisumu
 
 5.3 Optimal Path
 - Based on the path cost function, the optimal route for the searching agent that yields the minimal path cost is Route 1 (Naoribi -> Naivasha -> Nakuru -> Molo -> Kericho -> Kisumu), which is a total of 358km.
+
+6. Evidence of Groupwork
+<img width="1448" height="1086" alt="Evidence" src="https://github.com/user-attachments/assets/c1b3de96-7e92-4fe2-bcae-5ea61bcc9b60" />
+
