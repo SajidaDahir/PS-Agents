@@ -47,7 +47,7 @@ Goal State: Kisumu
 5. Alternative Routes Comparison and Optimal Path Determination
 5.1 Route Comparison Table
    
-<img width="1024" height="352" alt="Screenshot 2026-10-15 172716" src="https://github.com/user-attachments/assets/394a94a9-cc7b-405f-a058-bee36b1275e9" />
+<img width="1014" height="270" alt="Screenshot 2026-10-15 181234" src="https://github.com/user-attachments/assets/96502ab6-658c-43b0-9c7c-e4ed2f7b0a9b" />
 
 
 5.2 Distance Calculation for Optimal Path
