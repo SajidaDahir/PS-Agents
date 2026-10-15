@@ -37,17 +37,19 @@ Goal State: Kisumu
 4. Directed Graph and Search Tree Representation
 4.1 Directed Graph
 
+<img width="732" height="1016" alt="Screenshot 2026-10-15 185303" src="https://github.com/user-attachments/assets/53dc677d-b53b-4156-8c66-d04a2d508d61" />
 
   
 4.2 Search Tree
 
-
+<img width="870" height="1148" alt="Screenshot 2026-10-15 185628" src="https://github.com/user-attachments/assets/337f40c5-4f2e-4bce-84ec-752839a83239" />
 
 
 5. Alternative Routes Comparison and Optimal Path Determination
 5.1 Route Comparison Table
    
-<img width="1014" height="270" alt="Screenshot 2026-10-15 181234" src="https://github.com/user-attachments/assets/96502ab6-658c-43b0-9c7c-e4ed2f7b0a9b" />
+<img width="1024" height="398" alt="Screenshot 2026-10-15 185042" src="https://github.com/user-attachments/assets/650cd175-9d4b-433b-89c8-a8e3a7c649fd" />
+
 
 
 5.2 Distance Calculation for Optimal Path
