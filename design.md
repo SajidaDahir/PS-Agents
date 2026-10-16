@@ -50,7 +50,8 @@ Goal State: Kisumu
 5. Alternative Routes Comparison and Optimal Path Determination
 5.1 Route Comparison Table
    
-<img width="1024" height="398" alt="Screenshot 2026-10-15 185042" src="https://github.com/user-attachments/assets/650cd175-9d4b-433b-89c8-a8e3a7c649fd" />
+<img width="437" height="169" alt="image" src="https://github.com/user-attachments/assets/caa4f82c-61e5-46d1-bba4-1a5643cf82c2" />
+
 
 
 
@@ -58,13 +59,13 @@ Goal State: Kisumu
 - d(Nairobi, Naivasha) = 88km
 - d(Naivasha, Nakuru) = 71km
 - d(Nakuru, Molo) = 47km
-- d(Molo, Kericho) = 69km
+- d(Molo, Kericho) = 60km
 - d(Kericho, Kisumu) = 83km
 
-- Path Cost = 88 + 71 + 47 + 69 + 83 = 358km
+- Path Cost = 88 + 71 + 47 + 60 + 83 = 349km
 
 5.3 Optimal Path
-- Based on the path cost function, the optimal route for the searching agent that yields the minimal path cost is Route 1 (Naoribi -> Naivasha -> Nakuru -> Molo -> Kericho -> Kisumu), which is a total of 358km.
+- Based on the path cost function, the optimal route for the searching agent that yields the minimal path cost is Route 1 (Naoribi -> Naivasha -> Nakuru -> Molo -> Kericho -> Kisumu), which is a total of 349km.
 
 6. Evidence of Groupwork
 <img width="1448" height="1086" alt="Evidence" src="https://github.com/user-attachments/assets/c1b3de96-7e92-4fe2-bcae-5ea61bcc9b60" />
