@@ -1,3 +1,5 @@
+Group members: 190160,190131,132453
+
 Practical Exercise 3: Designing a Searching Agent
 
 Agent: Self-Driving Trailer
